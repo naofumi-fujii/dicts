@@ -1,0 +1,23 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    bitclust-core (1.2.3)
+      progressbar (>= 1.9.0, < 2.0)
+      rack
+    bitclust-dev (1.2.3)
+      bitclust-core (= 1.2.3)
+    progressbar (1.10.1)
+    rack (2.2.2)
+    refe2 (1.2.3)
+      bitclust-core (= 1.2.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bitclust-core
+  bitclust-dev
+  refe2
+
+BUNDLED WITH
+   2.1.2
